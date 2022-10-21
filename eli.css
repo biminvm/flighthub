@@ -1,0 +1,46 @@
+.left-div
+{
+    position: absolute;
+    background-color: aqua;
+    top:10px;
+    left: 0px;
+    border:1px solid black;
+    width:40%;
+    float:right;
+}
+.right-div
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border:1px solid red;
+    width:40%;
+    float:left;
+    z-index: 3;
+    background-color: blanchedalmond;
+}
+.container{
+    position: relative ;
+    border: 1px solid blue;
+    top: left;
+    height: 100px;
+    z-index: 4;
+}
+.float
+{
+    position: relative;
+    top: 50%;
+    right: 50px;
+    width: 100px;
+    height:100px ;
+    border-radius: 50%;
+    font-size: 24pt;
+    line-height:100px ;
+    text-align: center;
+    background-color: beige;
+}
+.float:hover{
+    background-color: red;
+}
+.right-div:hover
+{background-color: blueviolet;}
